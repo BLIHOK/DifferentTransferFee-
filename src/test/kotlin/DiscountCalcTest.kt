@@ -14,7 +14,7 @@ class DiscountCalcTest {
         val transfer = 0
 
         val result = discountCalc.calcDiscountByCardType(amount, transfer)
-        assertEquals(0, result)
+        assertEquals(100, result)
     }
 
     @Test
